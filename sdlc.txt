@@ -2,24 +2,85 @@ The system development life cycle framework provides a sequence of activities fo
 
 The SDLC adheres to important phases that are essential for developers, such as planning, analysis, design, and implementation, and are explained in the section below. It includes evaluation of present system, information gathering, feasibility study and request approval. A number of SDLC models have been created: waterfall, fountain, spiral, build and fix, rapid prototyping, incremental, synchronize and stabilize. The oldest of these, and the best known, is the waterfall model: a sequence of stages in which the output of each stage becomes the input for the next. These stages can be characterized and divided up in different ways, including the following:[7]
 
-    Preliminary analysis: The objective of phase 1 is to conduct a preliminary analysis, propose alternative solutions, describe costs and benefits and submit a preliminary plan with recommendations.
+    Preliminary analysis: 
+    The objective of phase 1 is to conduct a preliminary
+ 	analysis, propose alternative solutions, describe costs and benefits and submit
+	 a preliminary plan with recommendations.
 
-        Conduct the preliminary analysis: in this step, you need to find out the organization's objectives and the nature and scope of the problem under study. Even if a problem refers only to a small segment of the organization itself, you need to find out what the objectives of the organization itself are. Then you need to see how the problem being studied fits in with them.
-        Propose alternative solutions: In digging into the organization's objectives and specific problems, you may have already covered some solutions. Alternate proposals may come from interviewing employees, clients, suppliers, and/or consultants. You can also study what competitors are doing. With this data, you will have three choices: leave the system as is, improve it, or develop a new system.
-        Describe the costs and benefits.
+        Conduct the preliminary analysis: in this step, you need to find out the
+        organization's objectives and the nature and scope of the problem under
+        study. Even if a problem refers only to a small segment of the
+        organization itself, you need to find out what the objectives of the
+        organization itself are. Then you need to see how the problem being
+        studied fits in with them. Propose alternative solutions: In digging
+        into the organization's objectives and specific problems, you may have
+        already covered some solutions. Alternate proposals may come from
+        interviewing employees, clients, suppliers, and/or consultants. You can
+        also study what competitors are doing. With this data, you will have
+        three choices: leave the system as is, improve it, or develop a new
+        system. Describe the costs and benefits.
 
-    Systems analysis, requirements definition: Defines project goals into defined functions and operation of the intended application. It is the process of gathering and interpreting facts, diagnosing problems and recommending improvements to the system. Analyzes end-user information needs and also removes any inconsistencies and incompleteness in these requirements.
+    Systems analysis, requirements definition: 
+    Defines project goals into defined functions and operation of the intended 
+    application. It is the process of gathering and interpreting facts, diagnosing 
+    problems and recommending improvements to the system. Analyzes end-user 
+    information needs and also removes any inconsistencies and incompleteness in these
+    requirements.
 
     A series of steps followed by the developer are:[8]
 
-        Collection of Facts: End user requirements are obtained through documentation, client interviews, observation and questionnaires,
-        Scrutiny of the existing system: Identify pros and cons of the current system in-place, so as to carry forward the pros and avoid the cons in the new system.
-        Analyzing the proposed system: Solutions to the shortcomings in step two are found and any specific user proposals are used to prepare the specifications.
+        Collection of Facts: End user requirements are obtained through
+        documentation, client interviews, observation and questionnaires,
+        Scrutiny of the existing system: Identify pros and cons of the current
+        system in-place, so as to carry forward the pros and avoid the cons in
+        the new system. Analyzing the proposed system: Solutions to the
+        shortcomings in step two are found and any specific user proposals are
+        used to prepare the specifications.
 
-    Systems design: Describes desired features and operations in detail, including screen layouts, business rules, process diagrams, pseudocode and other documentation.
-    Development: The real code is written here.
-    Integration and testing: Brings all the pieces together into a special testing environment, then checks for errors, bugs and interoperability.
-    Acceptance, installation, deployment: The final stage of initial development, where the software is put into production and runs actual business.
-    Maintenance: During the maintenance stage of the SDLC, the system is assessed to ensure it does not become obsolete. This is also where changes are made to initial software. It involves continuous evaluation of the system in terms of its performance.
-    Evaluation: Some companies do not view this as an official stage of the SDLC, while others consider it to be an extension of the maintenance stage, and may be referred to in some circles as post-implementation review. This is where the system that was developed, as well as the entire process, is evaluated. Some of the questions that need to be answered include: does the newly implemented system meet the initial business requirements and objectives? Is the system reliable and fault-tolerant? Does the system function according to the approved functional requirements? In addition to evaluating the software that was released, it is important to assess the effectiveness of the development process. If there are any aspects of the entire process, or certain stages, that management is not satisfied with, this is the time to improve. Evaluation and assessment is a difficult issue. However, the company must reflect on the process and address weaknesses.
-    Disposal: In this phase, plans are developed for discarding system information, hardware and software in making the transition to a new system. The purpose here is to properly move, archive, discard or destroy information, hardware and software that is being replaced, in a manner that prevents any possibility of unauthorized disclosure of sensitive data. The disposal activities ensure proper migration to a new system. Particular emphasis is given to proper preservation and archival of data processed by the previous system. All of this should be done in accordance with the organization's security requirements.[9]
+    Systems design: 
+    Describes desired features and operations in detail,
+    including screen layouts, business rules, process diagrams, pseudocode and
+    other documentation.
+
+    Development: 
+    The real code is written here.
+
+    Integration and testing: Brings all the pieces together into a special
+    testing environment, then checks for errors, bugs and interoperability.
+
+    Acceptance, 
+    installation, deployment: The final stage of initial
+    development, where the software is put into production and runs actual
+    business.
+
+    Maintenance: 
+    During the maintenance stage of the SDLC, the system is
+    assessed to ensure it does not become obsolete. This is also where changes
+    are made to initial software. It involves continuous evaluation of the
+    system in terms of its performance.
+
+    Evaluation: 
+    Some companies do not view this as an official stage of the
+    SDLC, while others consider it to be an extension of the maintenance stage,
+    and may be referred to in some circles as post-implementation review. This
+    is where the system that was developed, as well as the entire process, is
+    evaluated. Some of the questions that need to be answered include: does the
+    newly implemented system meet the initial business requirements and
+    objectives? Is the system reliable and fault-tolerant? Does the system
+    function according to the approved functional requirements? In addition to
+    evaluating the software that was released, it is important to assess the
+    effectiveness of the development process. If there are any aspects of the
+    entire process, or certain stages, that management is not satisfied with,
+    this is the time to improve. Evaluation and assessment is a difficult issue.
+    However, the company must reflect on the process and address weaknesses.
+
+    Disposal: 
+    In this phase, plans are developed for discarding system
+    information, hardware and software in making the transition to a new system.
+    The purpose here is to properly move, archive, discard or destroy
+    information, hardware and software that is being replaced, in a manner that
+    prevents any possibility of unauthorized disclosure of sensitive data. The
+    disposal activities ensure proper migration to a new system. Particular
+    emphasis is given to proper preservation and archival of data processed by
+    the previous system. All of this should be done in accordance with the
+    organization's security requirements.[9]
