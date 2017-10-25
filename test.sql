@@ -2,7 +2,17 @@
 SELECT DISTINCT column1, column2, ...
 FROM table_name;
 
-//delete duplicate records in Ssql
+//Find duplicates in a table
+SELECT
+    name, email, COUNT(*)
+FROM
+    users
+GROUP BY
+    name, email
+HAVING 
+    COUNT(*) > 1
+    
+//Delete duplicate records in Ssql
 //A really easy way to do this is to add a UNIQUE index on the 3 columns. 
 //When you write the ALTER statement, include the IGNORE keyword. Like so:
 
